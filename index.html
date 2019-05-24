@@ -153,7 +153,7 @@ function handleNotifications(event) {
   for (let i = 0; i < value.byteLength; i++) {
     result += String.fromCharCode(value.getUint8(i));
   }
-  log('> ' + result);
+  log(result);
 }
 function isWebBluetoothEnabled() {
   if (navigator.bluetooth) {
